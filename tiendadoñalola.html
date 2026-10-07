@@ -1,0 +1,138 @@
+<HTML>
+<head>
+ <title>Tienda Doña Lola</title>
+</head>
+<Body>
+ <h1>Tienda Doña Lola</h1>
+ <P>¡Tu tienda de confianza!</p>
+ 
+
+<!--Hipervínculos-->
+ <hr>
+ <p>
+  <strong>Navegación:</strong>
+  <a href="#productos">Productos</a> |
+  <a href="#precios">Lista de precios</a> |
+  <a href="#promociones">Promociones</a> |
+  <a href="#pedidos">Hacer pedido</a> |
+  <a href="#contacto">Contacto</a>
+ </p>
+ <hr>
+
+<!--Imagen-->
+<section id="inicio">
+    <h2>Bienvenidos a nuestra tienda</h2>
+    <img src="doñalola.jpg" alt="Fachada de Tienda Doña Lola" width="400">
+    <p>Ofrecemos servicio a domicilio y atención personalizada de lunes a domingo.</p>
+</section>
+
+<!--Listas-->
+<section id="productos">
+    <h2>Categorías de Productos</h2>
+    <ul>
+      <li>Lácteos</td>
+      <li>Frutas y verduras</li>
+      <li>Carnes</li>
+      <li>Bebidas y botanas</li>
+      <li>Artículos de limpieza</li>
+    </ul>
+
+    <h3>Cómo solicitar servicio a domicilio:</h3>
+    <ol>
+      <li>Consulta nuestra lista de productos en esta página.</li>
+      <li>Llena el formulario de pedido ubicado al final.</li>
+      <li>Recibe confirmación y paga en efectivo o tarjeta al recibir en tu puerta.</li>
+    </ol>
+  </section>
+
+  <!-- Tabla -->
+  <section id="precios">
+    <h2>Lista de Productos</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Categoría</th>
+          <th>Producto</th>
+          <th>Presentación</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lácteos</td>
+          <td>Leche Entera</td>
+          <td>1 Litro</td>
+          <td>$27.00</td>
+        </tr>
+        <tr>
+          <td>Panadería</td>
+          <td>Pan Blanco Barra</td>
+          <td>680 g</td>
+          <td>$45.00</td>
+        </tr>
+        <tr>
+          <td>Abarrotes</td>
+          <td>Frijol Negro</td>
+          <td>1 kg</td>
+          <td>$38.00</td>
+        </tr>
+        <tr>
+          <td>Bebidas</td>
+          <td>Agua Purificada</td>
+          <td>1.5 Litros</td>
+          <td>$18.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Multimedia -->
+  <section id="promociones">
+    <h2>Anuncio de Promociones de la Semana</h2>
+    <p>Escucha las promociones vigentes de hoy:</p>
+    <audio controls>
+      <source src="anuncio.mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <p>Para ver recetas fáciles con nuestros productos, visita <a href="https://www.google.com" target="_blank">nuestro sitio de recetas recomendadas</a>.</p>
+  </section>
+
+  <!-- Formulario -->
+  <section id="pedidos">
+    <h2>Haz tu pedido en línea</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo:</label><br>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required><br><br>
+
+      <label for="telefono">Teléfono de contacto:</label><br>
+      <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número" required><br><br>
+
+      <label for="direccion">Dirección de entrega:</label><br>
+      <input type="text" id="direccion" name="direccion" placeholder="Calle y número de casa" required><br><br>
+
+      <label for="pedido">Detalle de su pedido:</label><br>
+      <textarea id="pedido" name="pedido" rows="4" cols="40" placeholder="Escriba aquí los productos que necesita..."></textarea><br><br>
+
+      <label for="pago">Método de pago:</label><br>
+      <select id="pago" name="pago">
+        <option value="efectivo">Efectivo</option>
+        <option value="tarjeta">Tarjeta al entregar</option>
+        <option value="transferencia">Transferencia bancaria</option>
+      </select><br><br>
+
+      <button type="submit">Enviar Pedido</button>
+    </form>
+  </section>
+
+  <!-- Contacto -->
+  <footer id="contacto">
+    <hr>
+    <p><strong>Tienda Doña Lola</strong></p>
+    <p>Horario: Lunes a Sábado de 7:00 am a 10:00 pm | Domingos de 8:00 am a 8:00 pm</p>
+  </footer>
+
+  
+ 
+</Body>
+</HTML>
